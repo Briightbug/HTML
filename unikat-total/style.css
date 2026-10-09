@@ -1,5 +1,7 @@
-.Menu {
-    height: 100px;
-    width: 100px;
-    
+a.Menu {
+    margin: 100px;
+}
+
+h1 {
+    color: red;
 }
