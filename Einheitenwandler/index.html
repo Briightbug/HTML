@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Einheitenumrechner</title>
+    </head> 
     <body>
         <h1>Einheitenumrechner</h1>
-        <p id="resultElement"></p>
+        <input type="number" placeholder="Geben Sie eine Zahl ein..." id="userInput">
+        <select id="unit">
+            <option selected disabled>Wähle die Richtung</option>
+            <option value="milesToKm">Mi -> Km</option>
+            <option value="kmToMiles">Km -> Mi</option>
+        </select>
+        <button onclick="convert()">Umrechnen</button>
+        <p>Ergebnis: <span id="resultElement">0</span></p>
         <script src="script.js"></script>
     </body>
 </html>
