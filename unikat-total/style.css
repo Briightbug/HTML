@@ -1,7 +1,53 @@
+p.MenuParagraph {
+    background-color: rgb(11, 59, 11);
+}
+
 a.Menu {
-    margin: 100px;
+    margin-left: 100px;
+    margin-right: 1000px;
+}
+
+a.MenuText {
+    margin: 0 10px 0 10px;
+}
+
+p.Buttons {
+    text-align: right;
+    margin: 10px;
+}
+
+#ShopButton {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(84, 84, 128);
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    display: block;
+}
+
+#ShopButton:hover .dropdown-content {
+    display: block;
 }
 
 h1 {
+    text-align: center;
     color: red;
 }
